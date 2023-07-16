@@ -27,7 +27,7 @@ userScore++;
 userScore_span. innerHTML = userScore ;
 compScore_span.innerHTML =  compScore;
 //result_p.innerHTML =convertToWord(userChoice)+ " beats " + convertToWord(ComputerChoice) + " , you win!🔥" // it is in CSS5
-result_p.innerHTML =`${convertToWord(userChoice)}${smallUserWord}  beats  ${convertToWord(ComputerChoice)}${smallcompWord}. You win!"👍`;//`` is in css6  v cn get rid of +&"" $ {} r used to convert str
+result_p.innerHTML =`${convertToWord(userChoice)}${smallUserWord}  beats  ${convertToWord(ComputerChoice)}${smallcompWord}. You win!"👍`;//`` is in ES6  v cn get rid of +&"" $ {} r used to convert str
 userChoice_div.classList.add('green_glow');
 setTimeout(()=>userChoice_div.classList.remove('green_glow'),300);
 }
